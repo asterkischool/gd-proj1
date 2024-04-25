@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header .title {
+    font-size: 2em;
+    color: #333;
+}
+
+header .title h1 span {
+    color: rebeccapurple;
+    font-weight: bolder;
+}
+
+header img {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    gap: 2%;
+}
+
+main section {
+    width: 30%;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main section h1 {
+    font-size: 1.5em;
+    color: #333;
+}
